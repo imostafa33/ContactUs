@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background: #f8f8f8;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    color: #fff;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navbar ul li a:hover {
+    color: #f4f4f4;
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input, textarea {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #6c63ff;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #6c63ff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5754d4;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.success {
+    color: green;
+    text-align: center;
+    font-size: 16px;
+}
+footer{
+    background: #333; 
+    color: #fff; 
+    text-align: center; 
+    padding: 2px ; 
+    font-size: 0.9rem; 
+    width: 100vw;
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
